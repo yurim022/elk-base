@@ -1,4 +1,4 @@
-ARG ELASTIC_VERSION
+ARG ELASTIC_VERSION=7.17.8
 
 # https://www.docker.elastic.co/
 FROM docker.elastic.co/logstash/logstash:${ELASTIC_VERSION}
